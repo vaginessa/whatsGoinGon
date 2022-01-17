@@ -1,0 +1,103 @@
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 20px;
+  background: #f1f1f1;
+}
+
+h1{
+  font-size: 25px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background-color: transparent;
+  color: firebrick;
+  margin-top: 20px;
+  border-radius: 3px;
+}
+
+.icon-bar {
+  width: 100%; /* Full-width */
+  background-color: black; /* Dark-grey background */
+  border-radius: 3px;
+  overflow: auto; /* Overflow due to float */
+}
+
+.icon-bar a {
+  float: left; /* Float links side by side */
+  text-align: center; /* Center-align text */
+  width: 25%; /* Equal width (5 icons with 20% width each = 100%) */
+  padding: 12px 0; /* Some top and bottom padding */
+  transition: all 0.3s ease; /* Add transition for hover effects */
+  color: white; /* White text color */
+  font-size: 20px; /* Increased font size */
+}
+
+.icon-bar a:hover {
+  background-color: darkred; /* Add a hover color */
+}
+
+.active {
+  background-color: firebrick; /* Add an active/current color */
+}
+
+#ig{
+  color: white;
+}
+
+#link{
+  color: firebrick;
+}
+
+#text{
+  margin-top: 30px;
+}
+
+#facebook{
+  margin-top: 10px;
+  padding: 20px;
+  font-size: 20px;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  background: #3B5998;
+  color: white;
+}
+
+#twitter{
+  margin-top: 10px;
+  padding: 20px;
+  font-size: 20px;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  background: #55ACEE;;
+  color: white;
+}
+
+#instagram{
+  margin-top: 10px;
+  padding: 20px;
+  font-size: 20px;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  background: #e4405f;
+  color: white;
+}
