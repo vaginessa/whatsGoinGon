@@ -18,7 +18,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="../stile.css">
+    <link rel="stylesheet" type="text/css" href="../stili.css">
     <link rel="icon" href="../logo.png" />
     <title>what's GoinG on</title>
     <div id="header" class="sticky-top" style="background-color: #f1f1f1;">
@@ -74,6 +74,18 @@
       <a id="facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://whatsgoingon.altervista.org/articoli/QUI.html" class="fa fa-facebook"></a>
       <a id="twitter" href="https://twitter.com/intent/tweet?url=https://whatsgoingon.altervista.org/articoli/QUI.html" class="fa fa-twitter"></a>
       <a id="instagram" href="QUI" class="fa fa-instagram"></a>
+      <a id="copy" href="javascript:void(0)" class="fa fa-clone"  data-toggle="popover"  data-trigger="focus" data-content="Copied!" onclick="copyText()"></a>
+      <script>
+        function copyText() {
+            navigator.clipboard.writeText
+                ("https://whatsgoingon.altervista.org/articoli/QUI.html");
+        }
+      </script>
+      <script>
+        $(document).ready(function(){
+          $('[data-toggle="popover"]').popover();
+        });
+      </script>
     </div>
     <p id="text" class="col-lg-12"><i class="fa fa-paperclip"></i>&nbsp;
     </p>
