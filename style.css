@@ -5,6 +5,11 @@ body {
 
 h1{
   font-size: 25px;
+  font-weight: 600;
+}
+
+h5{
+  font-weight: 600;
 }
 
 /* Add a card effect for articles */
@@ -60,6 +65,8 @@ h1{
 
 #text{
   margin-top: 30px;
+  text-align: start; 
+  font-size: 19px;
 }
 
 #facebook{
