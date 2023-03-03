@@ -40,7 +40,7 @@ h5{
 .icon-bar a {
   float: left; /* Float links side by side */
   text-align: center; /* Center-align text */
-  width: 33.3%; /* Equal width (5 icons with 20% width each = 100%) */
+  width: 50%; /* Equal width (5 icons with 20% width each = 100%) */
   padding: 12px 0; /* Some top and bottom padding */
   transition: all 0.3s ease; /* Add transition for hover effects */
   color: white; /* White text color */
@@ -53,10 +53,6 @@ h5{
 
 .active {
   background-color: firebrick; /* Add an active/current color */
-}
-
-#ig{
-  color: white;
 }
 
 #link{
@@ -92,19 +88,6 @@ h5{
   text-decoration: none;
   border-radius: 50%;
   background: #55ACEE;;
-  color: white;
-}
-
-#instagram{
-  margin-top: 10px;
-  padding: 20px;
-  font-size: 15px;
-  width: 55px;
-  height: 55px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 50%;
-  background: #e4405f;
   color: white;
 }
 
